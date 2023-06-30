@@ -18,6 +18,7 @@ li{
     list-style: none;
 }
 main{
+    /* margin-top: 200px; */
     margin-left: auto;
     margin-right: auto;
     width: 400px;
@@ -26,7 +27,6 @@ main{
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    margin-top: 10rem;
 }
 main h2{
     font-size: 3rem;
@@ -41,21 +41,28 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: .1rem solid #383838;
+    border-bottom: .1rem solid white;
 }
 nav a{
     font-size: 2rem;
+    padding: 3px;
     font-family: 'Ysabeau Infant', sans-serif;
     color: #797878;
     border-bottom: .3rem solid transparent;
     font-weight: bold;
 }
 nav a:hover{
-    border-color: #EEE2DE;
+    color: #c3c3c3;
 }
 nav a.active{
     color: #EEE2DE;
-    border-color: #EEE2DE;
+    border-radius: 5px 5px  0 0;
+    border-top: .3rem solid white;
+    border-left: .3rem solid white;
+    border-right: .3rem solid white;
+    translate: 0 1px;
+
+    border-bottom: 0.01rem solid black;
 }
 form{
     width: 95%;
