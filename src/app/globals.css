@@ -8,7 +8,7 @@
     color: #EEE2DE;
 }
 html{
-    font-size: 75%;
+    font-size: 70%;
 }
 a{
     text-decoration: none;
@@ -18,7 +18,11 @@ li{
     list-style: none;
 }
 main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
@@ -33,7 +37,7 @@ color: #383838;
 }
 
 nav{
-    width: 55rem;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,10 +57,13 @@ nav a.active{
     color: #EEE2DE;
     border-color: #EEE2DE;
 }
+form{
+    width: 95%;
+}
 form input{
-    border: .1rem solid black;
+    border: .1rem solid rgb(67, 67, 67);
     border-radius: .3rem;
-    width: 45rem;
+    width: 70%;
     margin: 4rem 0;
     user-focus: none;
     padding: .6rem 1rem;
@@ -65,7 +72,8 @@ form input{
     font-weight: bold;
 }
 form button{
-    font-size: 1.6rem;
+    width: 20%;
+    font-size: 1.1rem;
     padding: 0.8rem 2.8rem;
     border: none;
     border-radius: 0.3rem;
@@ -87,7 +95,7 @@ ul li{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
-    width: 50rem;
+    width: 100%;
     min-height: 6rem;
     border-bottom: .1rem solid #383838;
     border-radius: 0 0 1rem 1rem;
