@@ -18,12 +18,12 @@ li{
     list-style: none;
 }
 main{
-    /* margin-top: 200px; */
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
